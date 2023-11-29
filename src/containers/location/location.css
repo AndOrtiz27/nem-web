@@ -1,0 +1,45 @@
+.location_map {
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 15rem;    
+}
+
+.location_map h1 {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 45px;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .location_map h1 {
+        font-size: 35px;
+        margin-bottom: 3rem;
+    }
+
+    .location_map {
+        margin: 2rem 10rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .location_map h1 {
+        font-size: 28px;
+        margin-bottom: 2rem;
+    }
+
+    .location_map {
+        margin: 2rem 6rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .location_map h1 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .location_map {
+        margin: 2rem 4rem;
+    }
+}

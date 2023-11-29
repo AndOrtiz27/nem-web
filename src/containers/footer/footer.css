@@ -1,0 +1,138 @@
+.nem_footer {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    background: var(--color-text);
+    padding: 6rem 8rem 1rem;
+}
+
+.nem_footer-header {
+    font-family: var(--font-family);
+    color: var(--color-text2);
+    font-size: 25px;
+    margin-right: 6rem;
+}
+
+.nem_footer-header1 {
+    font-family: var(--font-family);
+    color: var(--color-text2);
+    font-size: 20px;
+    margin-right: 3rem;
+}
+
+.nem_footer-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 5rem;
+    width: 60px;
+    cursor: pointer;
+}
+
+.nem_footer-face {
+    margin-bottom: 2rem;
+    
+}
+
+.nem_footer-was {
+    margin-bottom: 2rem;
+}
+
+.nem_footer-links {
+    font-family: var(--font-family);
+    color: var(--color-text2);
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.nem_footer-copyright {
+    font-family: var(--font-family);
+    color: var(--color-text2);
+    font-size: 15px;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .nem_footer {
+        padding: 3rem 6rem 1rem;
+    }
+
+    .nem_footer-header {
+        font-size: 17px;
+        margin-right: 5rem;
+    }
+
+    .nem_footer-header1 {
+        font-size: 16px;
+        margin-right: 2rem;
+    }
+
+    .nem_footer-logos {
+        width: 50px;
+    }
+
+    .nem_footer-links {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nem_footer-logos {
+        width: 40px;
+    }
+
+    .nem_footer-links {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 1rem;
+    }
+
+    .nem_footer-face,
+    .nem_footer-was {
+        margin-bottom: 1rem;
+    }
+
+    .nem_footer-copyright {
+        font-size: 11px;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nem_footer {
+        padding: 2rem 4rem 1rem;
+    }
+
+    .nem_footer-header {
+        font-size: 11px;
+        margin-right: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    .nem_footer-header1 {
+        font-size: 11px;
+    }
+
+    .nem_footer-logos {
+        width: 26px;
+    }
+
+    .nem_footer-face,
+    .nem_footer-was {
+        margin-bottom: 0.5rem;
+    }
+
+    .nem_footer-links {
+        font-size: 11px;
+        line-height: 18px;
+        margin-top: 1rem;
+    }
+
+    .nem_footer-copyright {
+        font-size: 8px;
+        margin-top: 1rem;
+    }
+
+}

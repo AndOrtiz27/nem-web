@@ -1,0 +1,41 @@
+.nem_services {
+    flex-direction: row;
+    
+    display: flex;
+    padding: 4rem 22rem;
+    
+}
+
+.nem_services-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6rem    
+}
+
+@media screen and (max-width: 1050px) {
+    .nem_services {
+        padding: 2rem 16rem;
+    }
+
+    .nem_services-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 3rem   
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nem_services {
+        padding: 1rem 11rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nem_services {
+        padding: 1rem 5rem;
+    }
+
+    .nem_services-container {
+        grid-gap: 1.5rem   
+    }
+}
